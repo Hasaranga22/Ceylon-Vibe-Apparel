@@ -1,0 +1,94 @@
+.myAccountDashBoardWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+/* Sidebar Dashboard */
+.myAccountDashBoard {
+    padding: 1rem;
+    width: 20%;
+    border-right: 1px solid black;
+}
+
+.userSec1 img {
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.userSec2 button {
+    width: 100%;
+    height: 45px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #b9b8b4;
+    color: black;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.userSec2 button:focus {
+    background-color: #fbbd08;
+    outline: none;
+}
+
+/* Checkout Section */
+.checkout-section {
+    width: 70%;
+}
+
+/* Checkout Card Styles */
+.checkout-card {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.checkout-card h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+/* Checkout Table Styles */
+.checkout-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.checkout-table th, .checkout-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+.checkout-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.checkout-table td {
+    font-size: 14px;
+}
+
+.item-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.checkout-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.checkout-table tr:hover {
+    background-color: #f1f1f1;
+}

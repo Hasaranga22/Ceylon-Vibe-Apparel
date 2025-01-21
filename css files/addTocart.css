@@ -1,0 +1,58 @@
+/* Shopping Cart Table Styles */
+.tableCart {
+    width: 75%; /* Table width set to 75% */
+    margin: 20px auto; /* Center the table */
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Clip content for rounded corners */
+}
+
+.tableCart th, td {
+    padding: 12px 15px;
+}
+
+.tableCart th {
+    background-color: #5a5e5a; /* Green header background */
+    color: white;
+    font-weight: bold;
+}
+
+.tableCart tr:nth-child(even) {
+    background-color: #f2f2f2; /* Alternating row colors */
+}
+
+.tableCart tr:hover {
+    background-color: #ddd; /* Highlight row on hover */
+}
+
+.tableCart td img {
+    max-width: 80px;
+    height: auto;
+    border-radius: 5px; /* Rounded image corners */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.tableCart td img:hover {
+    transform: scale(1.1); /* Zoom image on hover */
+}
+
+.tableCart td form button {
+    background-color: #ff4d4d; /* Red button color */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.tableCart td form button:hover {
+    background-color: #ff1a1a; /* Darker red on hover */
+}
+

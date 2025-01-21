@@ -1,0 +1,77 @@
+/* Main section container */
+.mainSEction {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 25px 150px 25px 150px;
+}
+
+/* Styling for section headings */
+.mainSEction h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.mainSEction h4 {
+    font-size: 1.2em;
+    color: #444;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+/* Paragraph text styling */
+.mainSEction p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/* Styling for unordered list items */
+.mainSEction ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.mainSEction ul li {
+    margin-bottom: 8px;
+}
+
+/* Add some space between sections */
+.mainSEction section {
+    margin-bottom: 30px;
+}
+
+/* Link styling */
+.mainSEction a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+.mainSEction a:hover {
+    text-decoration: underline;
+}
+
+/* Ensure mobile responsiveness */
+@media (max-width: 768px) {
+    .mainSEction {
+        padding: 10px;
+    }
+
+    .mainSEction h3 {
+        font-size: 1.6em;
+    }
+
+    .mainSEction h4 {
+        font-size: 1.2em;
+    }
+
+    .mainSEction p {
+        font-size: 0.95em;
+    }
+}

@@ -1,0 +1,153 @@
+.sectionCat {
+    display: flex;
+    padding: 25px 150px 0 150px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sectionCat .logos a {
+    margin-left: 30px;
+}
+
+/* Container for the product detail section */
+.sectionDet {
+    padding: 25px 150px 0 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* Ensures responsive behavior */
+}
+
+/* Styling the product image */
+.tImage {
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+}
+
+/* Container for the details of the clothing item */
+.detalsOfCloth {
+    max-width: 600px;
+    flex: 1;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 2px solid #ddd;
+}
+
+/* Heading for prices */
+.detalsOfCloth p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* List of product details */
+.detalsOfCloth ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 0;
+}
+
+.detalsOfCloth ul li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+/* Link style for the return policy */
+.detalsOfCloth ul li a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.detalsOfCloth ul li a:hover {
+    text-decoration: underline;
+}
+
+.sizeSelect button {
+    cursor: pointer;
+    /* Ensures the pointer changes to a hand icon */
+    pointer-events: auto;
+    /* Ensures the buttons are clickable */
+    background-color: lightgray;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px 15px;
+}
+
+
+
+.buyForm {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 8px 0 23px 1px rgba(0, 0, 0, 0.1);
+    max-width: 250px;
+    max-height: 260px;
+}
+
+.buyForm label {
+    font-size: 16px;
+    color: #333;
+    /* margin-bottom: 8px; */
+    display: block;
+}
+
+.buyForm select,
+input[type='number'] {
+    width: 60%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.buyForm input[type='submit'] {
+    background-color: #000000;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    margin: 5px 0;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 100%;
+}
+
+.buyForm input[type='submit']:hover {
+    background-color: #45a049;
+}
+
+.buyForm input[type='submit']:nth-child(2) {
+    background-color: #008CBA;
+}
+
+.buyForm input[type='submit']:nth-child(2):hover {
+    background-color: #007bb5;
+}
+
+.buyForm .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+
+/*description css */
+.description {
+    padding: 25px 150px 0 150px;
+    margin-bottom: 5%;
+
+
+}
+
+.descriptionHead {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5%;
+}

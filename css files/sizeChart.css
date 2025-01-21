@@ -1,0 +1,14 @@
+.sizeSection{
+    padding: 25px 150px 25px 150px;
+    font-size: 17px;
+}
+
+.sizeSection p{
+    font-size: 16px;
+}
+
+.sizesImages img
+{
+    margin:50px;
+    border-radius: 10%;
+}
